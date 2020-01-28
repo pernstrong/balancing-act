@@ -1,25 +1,58 @@
-nav {
-  display: left;
+.navigation {
+  float: left;
+  width: 10%;
+  display: grid;
+  grid-template-rows: 33% 200px 500px;
+
 }
 
+
 body {
+  font-family: 'Biryani', sans-serif;
+  color: #363636;
   background-color: #F5F5F5;
 }
 
 button {
   color: white;
   background-color: #1CA3BA;
+  border-color: #1CA3BA;
+  border-radius: 10px;
+
 }
 
-.elephant {
-
+.two-columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.nav buttons {
+
+h2 {
+  display: inline;
+}
+
+.nav-image {
+  width: 50%;
+}
+
+.card-image {
+  width: 25%;
+}
+
+.accounts {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.manage-button {
+  float: right;
+}
+.menu {
 
 }
 
 .column1 {
-
+  width: 45%;
+  display: left;
 }
 
 .welcome {
@@ -27,13 +60,27 @@ button {
 }
 
 .snapshot {
-
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .card {
-
+  display: grid;
+  grid-template-columns: 150px 200px 200px;
 }
 
-.column2 {
+th {
+  text-align: left;
+}
+td {
+  padding: 0px 15px 0px 0px;
+}
 
+.payee {
+  padding: 0px 115px 0px 0px;
+}
+
+.accounts-head {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
