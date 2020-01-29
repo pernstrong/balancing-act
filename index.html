@@ -7,13 +7,15 @@
   </head>
   <body>
     <nav class="navigation">
-      <img class="nav-image" src="assets/images/elephant.svg" alt="elephant balancing on ball">
-      <section class="menu">
+      <ul class="menu">
+        <li><img class="nav-image" src="assets/images/elephant.svg" alt="elephant balancing on ball"></li>
+      </ul>
+      <ul class="menu">
         <!--Should the alts be a description of the picture or what they will do when clicked?-->
-        <img class="nav-image" src="assets/images/dashboard.svg" alt="clipboard with graph">
-        <img class="nav-image" src="assets/images/transactions.svg" alt="wallet with card">
-        <img class="nav-image"src="assets/images/profile.svg" alt="silhoutte of woman's head">
-      </section>
+        <li><img class="nav-image" src="assets/images/dashboard.svg" alt="clipboard with graph"></li>
+        <li><img class="nav-image" src="assets/images/transactions.svg" alt="wallet with card"></li>
+        <li><img class="nav-image"src="assets/images/profile.svg" alt="silhoutte of woman's head"></li>
+      </ul>
     </nav>
     <main>
       <!--Should the title area have its own section?-->
@@ -37,43 +39,40 @@
             </section>
           </section>
       <!--Should accounts heading and manage button have their own section? Going to try it...-->
-          <section class="accounts">
-            <section>
+<!--removed section only around h2-->
               <h2>Accounts</h2>
-            </section>
-            <section>
+<!--removed section only around button, now issues with buttion being giant!-->
               <button class="manage-button">MANAGE ACCOUNTS</button>
-            </section>
-          </section>
           <section>
             <section class="card">
               <img class="card-image" src="assets/images/checking.svg" alt="checkbook">
           <!-- headers or paragraph???-->
               <h3>Wells Fargo</h3>
-              <h3>Checking</h3>
+              <h3 class="card-type">Checking</h3>
             </section>
             <section class="card">
               <img class="card-image" src="assets/images/savings.svg" alt="piggy bank">
           <!-- headers or paragraph???-->
               <h3>Wells Fargo</h3>
-              <h3>Savings</h3>
+              <h3 class="card-type">Savings</h3>
             </section>
             <section class="card">
               <img class="card-image"src="assets/images/credit-card.svg" alt="credit card">
           <!-- headers or paragraph???-->
               <h3>Amazon Credit</h3>
-              <h3>Credit Card</h3>
+              <h3 class="card-type">Credit Card</h3>
             </section>
             <section class="card">
               <img class="card-image" src="assets/images/credit-card.svg" alt="credit card">
           <!-- headers or paragraph???-->
               <h3>Southwest Credit</h3>
-              <h3>Credit Card</h3>
+              <h3 class="card-type">Credit Card</h3>
             </section>
           </section>
         </section>
+        <!--end column one-->
         <section class="column-two">
-          <section class="transactions-box">
+          <p class="transactions-box">
           <section class="accounts-head">
             <section>
               <h2>Recent Transactions</h2>
@@ -146,6 +145,7 @@
           </table>
         </section>
         </section>
+      </p>
       </section>
     </main>
   </body>

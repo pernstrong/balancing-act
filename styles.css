@@ -8,11 +8,18 @@
   margin: 0% 5% 0% 0%;
 }
 
-.menu{
-  background-color: #fff; 
+.menu {
+  background-color: #fff;
+  margin: 0px;
 }
+
 .nav-image {
   width: 50%;
+  padding: 10px 0px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {
@@ -49,14 +56,14 @@ body {
 
 .ind-snap-one {
   background-color: #fff;
-  padding: 5px;
-  margin: 5px 10px 5px 0px;
+  padding: 10px;
+  margin: 5px 20px 5px 0px;
 }
 
 .ind-snap-two {
     background-color: #fff;
     padding: 5px;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 20px 5px 10px;
 }
 
 .ind-snap-three {
@@ -81,11 +88,12 @@ button {
   border-color: #1CA3BA;
   border-radius: 20px;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .manage-button {
   float: right;
+  padding: 5px;
 }
 
 .card {
@@ -93,12 +101,16 @@ button {
   box-shadow: rgba(0,0,0,0.05);
   margin: 20px 0px;
   display: grid;
-  grid-template-columns: 150px 200px 200px;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .card-image {
   padding: 10px;
   width: 25%;
+}
+
+.card-type {
+  padding: 0% 0% 0% 50%;
 }
 
 .transactions-box {
@@ -110,6 +122,7 @@ button {
   grid-template-columns: 50% 50%;
   padding: 0% 5%;
 }
+
 
 table {
   background-color: #fff;
