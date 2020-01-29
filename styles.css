@@ -2,12 +2,18 @@
   background-color: #fff;
   float: left;
   height: 100%;
-  width: 8%;
+  width: 10%;
   display: grid;
   grid-template-rows: 100% 300%;
-  margin: 0px 30px 0px 0px;
+  margin: 0% 5% 0% 0%;
 }
 
+.menu{
+  background-color: #fff; 
+}
+.nav-image {
+  width: 50%;
+}
 
 body {
   font-family: 'Biryani', sans-serif;
@@ -15,55 +21,24 @@ body {
   background-color: #F5F5F5;
 }
 
-button {
-  color: white;
-  background-color: #1CA3BA;
-  border-color: #1CA3BA;
-  border-radius: 10px;
-
-}
-
 .two-columns {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-h2 {
-  display: inline;
-}
-
-.nav-image {
-  width: 50%;
-}
-
-.card-image {
-  padding: 10px;
-  width: 25%;
-}
-
-.accounts {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.manage-button {
-  float: right;
-}
-.menu {
-  background-color: #fff;
-}
-
 .column-one {
   display: left;
-  margin: 0px 50px 0px 0px;
+  margin: 0% 10% 0% 0%;
 }
 
 .column-two {
-  align: center;
+  display: right;
+  margin: 0% 15% 0% 0%;
 }
 
 .welcome {
   padding: 20px;
+  margin: 0% 0% 5% 0%;
   background-image:linear-gradient(to right, #8ED1DC, #E3F4F6);
 }
 
@@ -71,11 +46,48 @@ h2 {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
-.ind-snap {
+
+.ind-snap-one {
   background-color: #fff;
   padding: 5px;
-  margin: 10px 10px 0px 0px;
+  margin: 5px 10px 5px 0px;
 }
+
+.ind-snap-two {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+}
+
+.ind-snap-three {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px 0px 5px 10px;
+}
+
+.accounts {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 0px;
+}
+
+h2 {
+  display: inline;
+}
+
+button {
+  color: white;
+  background-color: #1CA3BA;
+  border-color: #1CA3BA;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.manage-button {
+  float: right;
+}
+
 .card {
   background-color: #FFF;
   box-shadow: rgba(0,0,0,0.05);
@@ -84,11 +96,27 @@ h2 {
   grid-template-columns: 150px 200px 200px;
 }
 
+.card-image {
+  padding: 10px;
+  width: 25%;
+}
+
+.transactions-box {
+  background-color: #fff;
+}
+
+.accounts-head {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0% 5%;
+}
+
 table {
   background-color: #fff;
-  padding: 20px;
-  margin: 20px;
+  padding: 0% 5% 0% 0%;
+  margin: 0% 5%;
 }
+
 th {
   text-align: left;
   border-bottom: 1px solid #CCCCCC;
@@ -99,13 +127,6 @@ td {
   border-bottom: 1px solid #CCCCCC;
 }
 
-}
 .payee {
-  padding: 0px 115px 0px 0px;
-}
-
-.accounts-head {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin: 0px 20px;
+  padding: 0% 25% 0% 0%;
 }
