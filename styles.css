@@ -66,13 +66,13 @@ button {
 }
 
 .two-columns {
-  width: 80%;
+  width: 100%;
 
 }
 .column-one {
   float: left;
-  width: 40%;
-  margin: 0% 0% 0% 15%;
+  width: 45%;
+  margin: 0% 0% 0% 10%;
 }
 
 .column-two {
@@ -131,12 +131,14 @@ button {
 .recent-transactions {
   display: inline-block;
 }
+
 .new-transaction-button {
   float: right;
   display: inline-block;
   width: 40%;
   margin: 20px 0px;
 }
+
 table {
     background-color: #fff;
     padding: 0% 5% 0% 0%;
