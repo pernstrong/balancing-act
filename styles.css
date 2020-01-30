@@ -88,6 +88,13 @@ button {
   background-image:linear-gradient(to right, #8ED1DC, #E3F4F6);
 }
 
+.close-out {
+  width: 10px;
+  position: relative;
+  bottom: 115px;
+  left: 830px;
+}
+
 .snapshot {
   display: inline-block;
   width: 225px;
