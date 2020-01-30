@@ -9,7 +9,7 @@
 
 }
 .nav-image {
-  width: 50%;
+  width: 75%;
   padding: 5%;
 }
 
@@ -30,40 +30,29 @@ body {
 
 .head-one {
 position: relative;
-left: 188px;
+left: 140px;
+font-size: 30px;
+
 }
 
-.account-heading {
-  width: 50%;
-  float: left;
-  margin: 20px 0px;
+.welcome {
+  padding: 20px;
+  margin: 0% 0% 3% 0%;
+  background-image:linear-gradient(to right, #8ED1DC, #E3F4F6);
 }
 
-.accounts {
-  width: 100%;
-  display: inline-block;
+.close-image {
+  position: absolute;
+  top: 105px;
+  right: 655px;
+  width: 5px;
 }
 
-.manage-accounts-button {
-  float: right;
-  display: inline-block;
-  width: 33%;
-  margin: 20px 0px;
-}
-
-button {
-  color: white;
-  background-color: #1CA3BA;
-  border-color: #1CA3BA;
-  border-radius: 20px;
-  font-size: 15px;
-  padding: 5px;
-  display: inline-block;
-}
-
-.card-image {
-  padding: 10px;
-  width: 5%;
+.close {
+  position: absolute;
+  top: 105px;
+  right: 655px;
+  width: 5px;
 }
 
 .two-columns {
@@ -82,29 +71,52 @@ button {
   margin: 0% 2% 0% 0%;
 }
 
-.welcome {
-  padding: 20px;
-  margin: 0% 0% 5% 0%;
-  background-image:linear-gradient(to right, #8ED1DC, #E3F4F6);
+.account-heading {
+  width: 50%;
+  float: left;
+  margin: 20px 0px 0px 0px;
 }
 
-.close-out {
-  width: 10px;
-  position: relative;
-  bottom: 115px;
-  left: 830px;
+.accounts {
+  width: 100%;
+  display: inline-block;
 }
 
+.manage-accounts-button {
+  float: right;
+  display: inline-block;
+  width: 33%;
+  margin: 20px 0px 0px 0px;
+}
+
+button {
+  color: white;
+  background-color: #1CA3BA;
+  border-color: #1CA3BA;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.card-image {
+  padding: 10px;
+  width: 5%;
+}
+
+.snapshot-box {
+  height: ;
+}
 .snapshot {
   display: inline-block;
-  width: 225px;
-  height: 90px;
+  width: 150px;
+  height: 100%;
   background-color: #fff;
   padding: 10px 10px 20px 20px;
 }
 
 .center {
-  margin: 0px 42px 0px 42px;
+  margin: 0px 46px 0px 46px;
 }
 
 .right {
@@ -114,7 +126,8 @@ button {
 .card {
   background-color: #FFF;
   width: 100%;
-  margin: 20px 0px;
+  height: 75px;
+  margin: 10px 0px;
 
 }
 
@@ -138,9 +151,10 @@ button {
 }
 
 .transaction-header {
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 30px;
   background-color: #FFF;
 }
+
 .recent-transactions {
   display: inline-block;
 }
@@ -154,8 +168,9 @@ button {
 
 table {
     background-color: #fff;
-    padding: 5%;
+    padding: 3%;
     width: 100%;
+    /* border-collapse: collapse; */
 }
 
 th {
@@ -164,10 +179,10 @@ th {
 }
 
 td {
-    padding: 10px 15px 10px 0px;
+    padding: 10px 10px 10px 0px;
     border-bottom: 1px solid #CCCCCC;
 }
 
 .payee {
-    padding: 0% 25% 0% 0%;
+    padding: 0% 20% 0% 0%;
 }
