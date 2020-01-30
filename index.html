@@ -7,80 +7,86 @@
   </head>
   <body>
     <nav class="navigation">
-      <ul class="menu">
-        <li><img class="nav-image" src="assets/images/elephant.svg" alt="elephant balancing on ball"></li>
+      <ul class="elephant">
+        <li><img class="nav-image elephant" src="assets/images/elephant.svg" alt="elephant balancing on ball"></li>
       </ul>
-      <ul class="menu">
+      <ul class="main-group">
         <!--Should the alts be a description of the picture or what they will do when clicked?-->
         <li><img class="nav-image" src="assets/images/dashboard.svg" alt="clipboard with graph"></li>
         <li><img class="nav-image" src="assets/images/transactions.svg" alt="wallet with card"></li>
         <li><img class="nav-image"src="assets/images/profile.svg" alt="silhoutte of woman's head"></li>
       </ul>
     </nav>
-    <main>
+    <main class="two-columns">
       <!--Should the title area have its own section?-->
-      <h1>Balancing Act</h1>
-      <section class="two-columns">
+<h1 class="head-one">Balancing Act</h1>
+      <!-- <section class="two-columns"> -->
         <section class="column-one">
+
           <h3 class="welcome">Welcome, Oscar!</h3>
-      <!-- Should I add another section here to create a section for all three boxes?-->
-          <section class="snapshot">
-            <section class="ind-snap-one">
+          <!-- <section class="snapshot"> -->
+            <section class="snapshot">
               <h6>INCOME</h6>
               <h3>$2,119.12</h3>
             </section>
-            <section class="ind-snap-two">
+            <section class="snapshot center">
               <h6>EXPENSES</h6>
               <h3>$420.54</h3>
             </section>
-            <section class="ind-snap-three">
+            <section class="snapshot right">
               <h6>CREDIT SCORE</h6>
               <h3>673</h3>
             </section>
-          </section>
+          <!-- </section> -->
       <!--Should accounts heading and manage button have their own section? Going to try it...-->
 <!--removed section only around h2-->
-              <h2>Accounts</h2>
+            <!-- <section class="accounts"> -->
+            <div class="accounts">
+              <h2 class="account-heading">Accounts</h2>
 <!--removed section only around button, now issues with buttion being giant!-->
-              <button class="manage-button">MANAGE ACCOUNTS</button>
-          <section>
+              <button class="manage-accounts-button">MANAGE ACCOUNTS</button>
+  <!--        <section> -->
+            </div>
+            <section class="card-details">
             <section class="card">
               <img class="card-image" src="assets/images/checking.svg" alt="checkbook">
           <!-- headers or paragraph???-->
-              <h3>Wells Fargo</h3>
+              <h3 class="finance-co">Wells Fargo</h3>
               <h3 class="card-type">Checking</h3>
             </section>
             <section class="card">
               <img class="card-image" src="assets/images/savings.svg" alt="piggy bank">
           <!-- headers or paragraph???-->
-              <h3>Wells Fargo</h3>
+              <h3 class="finance-co">Wells Fargo</h3>
               <h3 class="card-type">Savings</h3>
             </section>
             <section class="card">
               <img class="card-image"src="assets/images/credit-card.svg" alt="credit card">
           <!-- headers or paragraph???-->
-              <h3>Amazon Credit</h3>
+              <h3 class="finance-co">Amazon Credit</h3>
               <h3 class="card-type">Credit Card</h3>
             </section>
             <section class="card">
               <img class="card-image" src="assets/images/credit-card.svg" alt="credit card">
           <!-- headers or paragraph???-->
-              <h3>Southwest Credit</h3>
+              <h3 class="finance-co">Southwest Credit</h3>
               <h3 class="card-type">Credit Card</h3>
             </section>
-          </section>
+
+    <!--      </section> -->
         </section>
+      </section>
         <!--end column one-->
         <section class="column-two">
-          <p class="transactions-box">
-          <section class="accounts-head">
-            <section>
-              <h2>Recent Transactions</h2>
-            </section>
-            <section>
-              <button>NEW TRANSACTION</button>
-            </section>
-          </section>
+  <!--        <p class="transactions-box">  -->
+          <!--<section class="accounts-head"> -->
+            <!--<section>-->
+            <h2 class="recent-transactions">Recent Transactions</h2>
+            <!--</section>-->
+            <!--<section>-->
+            <button class="new-transaction-button">NEW TRANSACTION</button>
+            <!--</section>-->
+          <!--</section> -->
           <table>
             <tr>
               <th>Date</th>
@@ -144,9 +150,8 @@
             </tr>
           </table>
         </section>
-        </section>
-      </p>
-      </section>
+      <!-- </section> -->
+    <!--  </p>  -->
     </main>
   </body>
 </html>
