@@ -30,7 +30,7 @@ body {
 
 .head-one {
 position: relative;
-left: 225px;
+left: 188px;
 }
 
 .account-heading {
@@ -47,9 +47,10 @@ left: 225px;
 .manage-accounts-button {
   float: right;
   display: inline-block;
-  width: 40%;
+  width: 33%;
   margin: 20px 0px;
 }
+
 button {
   color: white;
   background-color: #1CA3BA;
@@ -72,12 +73,13 @@ button {
 .column-one {
   float: left;
   width: 45%;
-  margin: 0% 0% 0% 10%;
+  margin: 0% 2% 0% 10%;
 }
 
 .column-two {
   float: right;
-  width: 40%
+  width: 38%;
+  margin: 0% 2% 0% 0%;
 }
 
 .welcome {
@@ -88,14 +90,14 @@ button {
 
 .snapshot {
   display: inline-block;
-  width: 153px;
+  width: 225px;
   height: 90px;
   background-color: #fff;
   padding: 10px 10px 20px 20px;
 }
 
 .center {
-  margin: 0px 25px 0px 25px;
+  margin: 0px 42px 0px 42px;
 }
 
 .right {
@@ -128,6 +130,10 @@ button {
   display: inline-block;
 }
 
+.transaction-header {
+  padding: 0px 0px 0px 40px;
+  background-color: #FFF;
+}
 .recent-transactions {
   display: inline-block;
 }
@@ -141,7 +147,7 @@ button {
 
 table {
     background-color: #fff;
-    padding: 0% 5% 0% 0%;
+    padding: 5%;
     width: 100%;
 }
 
@@ -151,7 +157,7 @@ th {
 }
 
 td {
-    padding: 0px 15px 0px 0px;
+    padding: 10px 15px 10px 0px;
     border-bottom: 1px solid #CCCCCC;
 }
 
