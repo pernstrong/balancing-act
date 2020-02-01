@@ -16,7 +16,7 @@ ul {
   /* float: left; */
   /* float: middle; */
   width: 40%;
-  padding: 5% 20% 0% 0%;
+  /* padding: 5% 20% 0% 0%; */
   border-left: 3px solid transparent;
   outline: none;
   padding: 0px 0px 0px 20px;
@@ -80,7 +80,6 @@ font-size: 30px;
 
 .two-columns {
   width: 100%;
-
 }
 
 .column-one {
@@ -199,6 +198,7 @@ table {
     box-shadow: 1px 1px rgba(0,0,0,0.05);
     padding: 2%;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 th {
@@ -216,22 +216,29 @@ td {
 }
 
 /* start of transactions page */
-.transactions-page {
+/* .transactions-page {
 
-}
+} */
 
 .transactions-heading {
   display: inline-block;
   width: 40%;
-  margin: 0% 0% 0% 10%;
+  margin: 0% 0% 0% 10%
+  ;
 }
 
 .trans-head {
   display: inline-block;
+  /* margin: 0px 50px 0px 0px; */
 }
 
-.all-button,
-.log-expense-button {
+.trans-buttons-section {
+  position: absolute;
+  left: 370px;
+  padding: 0px 0px 0px 50px;
+}
+
+.all-button {
   color: white;
   border-color: #1CA3BA;
   border-radius: 20px;
@@ -252,7 +259,7 @@ td {
 
 .trans-page-column-one {
   display: inline-block;
-  width: 40%;
+  width: 45%;
   margin: 0% 0% 0% 10%;
   /* maybe try float: left instead?????? */
 }
@@ -274,26 +281,34 @@ td {
     padding: 0px 15px 0px 0px;
 }
 
-.trans-page-column-two {
+/* .trans-page-column-two {
   float: right;
   width: 45%
-}
+} */
 
 .trans-page-column-two {
+  float: right;
+  width: 35%;
+  margin: 0px 50px 0px 50px;
   background-color: #fff;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   /* padding: 10px; */
 }
 
+.new-trans-heading {
+  margin: 0px 100px 10px 100px;
+}
+
 form {
-  padding: 0px 50px;
-  margin: 0px;
+  padding: 30px;
+  margin: 10px;
   width: 80%;
 }
-
+/*
 .type-of-trans {
 
-}
+} */
+
 h4 {
   padding: 0px;
   margin: 0px;
@@ -308,7 +323,7 @@ h4 {
 .type-input,
 .cat-input,
 .account-input {
-  width: 90%;
+  width: 100%;
   height: 10%;
   background-color: #F5F5F5;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
@@ -318,9 +333,20 @@ h4 {
 .payee-input,
 .outflow-input,
 .cat-text-input {
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
   box-shadow: 1px 1px #FFF;
   margin: 10px 0px;
+}
+
+.log-expense-button {
+  color: white;
+  border-color: #1CA3BA;
+  border-radius: 20px;
+  padding: 5px 25px;
+  cursor: pointer;
+  background-color: #1CA3BA;
+  font-size: 18px;
+  margin: 30px 0px 0px 0px;
 }
 /*  */
