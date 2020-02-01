@@ -9,15 +9,21 @@
   box-shadow: 1px 1px rgba(0,0,0,0.05);
 }
 
+ul {
+  padding: 0px;
+}
 .nav-image {
-  width: 75%;
+  /* float: left; */
+  /* float: middle; */
+  width: 40%;
   padding: 5% 20% 0% 0%;
   border-left: 3px solid transparent;
   outline: none;
+  padding: 0px 0px 0px 20px;
 }
 
 .nav-image-border {
-  border-left: 3px solid #1CA3BA;
+  border-left: 5px solid #1CA3BA;
 }
 
 .no-border {
@@ -29,8 +35,8 @@
 } */
 
 .elephant {
-  width: 75%;
-  padding: 5% 20% 0% 15%;
+  width: 80%;
+  padding: 5% 20% 0% 10%;
 }
 
 ul {
@@ -116,6 +122,7 @@ button {
   cursor: pointer;
   background-color: #1CA3BA;
   font-size: 15px;
+  outline: none;
 }
 
 .card-image {
@@ -223,7 +230,8 @@ td {
   display: inline-block;
 }
 
-.all-button {
+.all-button,
+.log-expense-button {
   color: white;
   border-color: #1CA3BA;
   border-radius: 20px;
@@ -260,17 +268,15 @@ td {
   box-shadow: 1px 1px rgba(0,0,0,0.05);
   padding: ;
   width: 100%;
-
 }
 
 .trans-page-table-payee {
-    padding: 0% 15% 0% 0%;
+    padding: 0px 15px 0px 0px;
 }
 
 .trans-page-column-two {
   float: right;
   width: 45%
-
 }
 
 .trans-page-column-two {
@@ -288,20 +294,25 @@ form {
 .type-of-trans {
 
 }
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
 
 .type-of-trans,
 .category,
 .account-from {
-  padding: 0px;
-
+  /* margin: 10px 0px; */
 }
 
 .type-input,
 .cat-input,
 .account-input {
   width: 90%;
+  height: 10%;
   background-color: #F5F5F5;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
+  margin: 10px 0px;
 }
 
 .payee-input,
@@ -310,5 +321,6 @@ form {
   width: 90%;
   border-radius: 5px;
   box-shadow: 1px 1px #FFF;
+  margin: 10px 0px;
 }
 /*  */
