@@ -135,6 +135,170 @@
           </table>
         </section>
     </main>
+      <main class="transactions-page main2 hide">
+    <section class="transactions-heading">
+      <h1 class="trans-head">Transactions</h1>
+      <section class="trans-buttons-section">
+        <button class="all-button">ALL</button>
+        <button class="inflow-button">INFLOW</button>
+        <button class="outflow-button">OUTFLOW</button>
+      </section>
+      </section>
+      <section class="trans-page-column-one">
+      <table class="trans-page-table">
+            <tr>
+              <th>Date</th>
+              <th>Account</th>
+              <th class="trans-page-tabl  e-payee">Payee</th>
+              <th>Inflow</th>
+              <th>Outlfow</th>
+            </tr>
+            <tr>
+              <td>10-25-1019</td>
+              <td>Credit Card</td>
+              <td class="trans-page-table-payee">Target</td>
+              <td>-</td>
+              <td>$83.35</td>
+            </tr>
+            <tr>
+              <td>10-24-2019</td>
+              <td>Credit Card</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+            <tr>
+              <td>10-22-2019</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Paycheck</td>
+              <td>$1,319.12</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>10-21-2019</td>
+              <td>Credit Card</td>
+              <td class="trans-page-table-payee">Trader Joe's</td>
+              <td>-</td>
+              <td>$54.92</td>
+            </tr>
+            <tr>
+              <td>10-20-2019</td>
+              <td>Credit Card</td>
+              <td class="trans-page-table-payee">Shell</td>
+              <td>-</td>
+              <td>$46.23</td>
+            </tr>
+            <tr>
+              <td>10-19-2019</td>
+              <td>Savings</td>
+              <td class="trans-page-table-payee">Rent</td>
+              <td>$800</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>10-19-2019</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Hapa Sushi</td>
+              <td>-</td>
+              <td>$13.97</td>
+            </tr>
+            <tr>
+              <td>10-18-2019</td>
+              <td>Credit Card</td>
+              <td class="trans-page-table-payee">Pig Train</td>
+              <td>-</td>
+              <td>$4.83</td>
+            </tr>
+            <tr>
+              <td>10-18-2019</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">RTD</td>
+              <td>-</td>
+              <td>$6.00</td>
+            </tr>
+            <tr>
+              <td>10-24-19</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+            <tr>
+              <td>10-24-19</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+            <tr>
+              <td>10-24-19</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+            <tr>
+              <td>10-24-19</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+            <tr>
+              <td>10-24-19</td>
+              <td>Checking</td>
+              <td class="trans-page-table-payee">Express</td>
+              <td>-</td>
+              <td>$212.24</td>
+            </tr>
+          </table>
+    </section>
+    <section class="trans-page-column-two">
+      <form>
+      <h2>New Transaction</h2>
+<!-- maybe can use one class for all of these??? -->
+      <section class="type-of-trans">
+        <h4>Type of Transaction:</h4>
+        <select class="type-input">
+          <option>Expense</option>
+          <option>Income</option>
+        </select>
+      </section>
+
+      <section class="category">
+        <h4>Category:</h4>
+        <select class="cat-input">
+          <option value="" disabled selected>- Select One -</option>
+          <option>Grocery</option>
+          <option>Gas</option>
+          <option>Tacos</option>
+        </select>
+      </section>
+
+      <section class="account-from">
+        <h4>Account from:</h4>
+        <select class="account-input">
+          <option value="" disabled selected>- Select One -</option>
+          <option>Credit Card</option>
+          <option>Checking</option>
+          <option>Savings</option>
+        </select>
+        </section>
+<!-- maybe need new class for each one???? -->
+      <section class="trans-text-boxes">
+        <h4>Payee:</h4>
+        <input type="text" class="payee-input">
+        <h4>Outflow:</h4>
+        <input type="text" class="outflow-input">
+        <h4>Category:</h4>
+        <input type="text" class="cat-text-input">
+      </section>
+
+      <button>Log Expense</button>
+      </form>
+    </section>
+
+    </main>
     <script src="main.js"></script>
   </body>
 </html>

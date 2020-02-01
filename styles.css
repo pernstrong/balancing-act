@@ -13,6 +13,7 @@
   width: 75%;
   padding: 5% 20% 0% 0%;
   border-left: 3px solid transparent;
+  outline: none;
 }
 
 .nav-image-border {
@@ -206,3 +207,108 @@ td {
 .payee {
     padding: 0% 20% 0% 0%;
 }
+
+/* start of transactions page */
+.transactions-page {
+
+}
+
+.transactions-heading {
+  display: inline-block;
+  width: 40%;
+  margin: 0% 0% 0% 10%;
+}
+
+.trans-head {
+  display: inline-block;
+}
+
+.all-button {
+  color: white;
+  border-color: #1CA3BA;
+  border-radius: 20px;
+  padding: 5px 50px;
+  cursor: pointer;
+  background-color: #1CA3BA;
+  font-size: 15px;
+  margin: 30px 0px 0px 0px;
+}
+
+.inflow-button,
+.outflow-button {
+  background-color: #fff;
+  color: #1CA3BA;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+.trans-page-column-one {
+  display: inline-block;
+  width: 40%;
+  margin: 0% 0% 0% 10%;
+  /* maybe try float: left instead?????? */
+}
+
+.trans-buttons-section {
+  float: right;
+  /* width: 10%; */
+  display: inline-block;
+}
+
+.trans-page-table {
+  background-color: #fff;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  padding: ;
+  width: 100%;
+
+}
+
+.trans-page-table-payee {
+    padding: 0% 15% 0% 0%;
+}
+
+.trans-page-column-two {
+  float: right;
+  width: 45%
+
+}
+
+.trans-page-column-two {
+  background-color: #fff;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  /* padding: 10px; */
+}
+
+form {
+  padding: 0px 50px;
+  margin: 0px;
+  width: 80%;
+}
+
+.type-of-trans {
+
+}
+
+.type-of-trans,
+.category,
+.account-from {
+  padding: 0px;
+
+}
+
+.type-input,
+.cat-input,
+.account-input {
+  width: 90%;
+  background-color: #F5F5F5;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+}
+
+.payee-input,
+.outflow-input,
+.cat-text-input {
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 1px 1px #FFF;
+}
+/*  */
