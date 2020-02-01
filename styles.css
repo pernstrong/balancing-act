@@ -15,9 +15,17 @@
   border-left: 3px solid transparent;
 }
 
-.nav-image:hover {
+.nav-image-border {
   border-left: 3px solid #1CA3BA;
 }
+
+.no-border {
+  border-left: 3px solid transparent;
+}
+
+/* .nav-image:hover {
+  border-left: 3px solid #1CA3BA;
+} */
 
 .elephant {
   width: 75%;
@@ -59,7 +67,7 @@ font-size: 30px;
   width: 10px;
 }
 
-.closed {
+.hide {
   display: none;
 }
 
@@ -148,11 +156,15 @@ button {
 
 .finance-co {
   position: relative;
+  bottom: 15px;
   display: inline-block;
+  padding: 0px 0px 15px 35px;
 }
 
 .card-type {
   float: right;
+  position: relative;
+  bottom: 5px;
   display: inline-block;
   width: 33%;
 }
