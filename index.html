@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navigation">
+    <nav class="navigation white-with-shadow">
       <ul class="elephant">
         <li><img class="elephant"  src="assets/images/elephant.svg" alt="elephant balancing on ball"></li>
       </ul>
@@ -17,7 +17,6 @@
       </ul>
     </nav>
     <main class="two-columns main">
-      <h2 class="new-heading"></h2>
       <h1 class="head-one">Balancing Act</h1>
         <section class="column-one">
           <section class="close-image">
@@ -25,53 +24,53 @@
             <input class="close-button" type="image" src="assets/images/close.svg" />
           </section>
           <section class="snapshot-box">
-            <section class="snapshot">
+            <section class="snapshot white-with-shadow inline-block">
               <h6>INCOME</h6>
               <h3>$2,119.12</h3>
             </section>
-            <section class="snapshot center">
+            <section class="snapshot center white-with-shadow inline-block">
               <h6>EXPENSES</h6>
               <h3>$420.54</h3>
             </section>
-            <section class="snapshot right">
+            <section class="snapshot right white-with-shadow inline-block">
               <h6>CREDIT SCORE</h6>
               <h3>673</h3>
             </section>
           </section>
-          <section class="accounts">
+          <section class="accounts inline-block">
             <h2 class="account-heading">Accounts</h2>
-            <button class="manage-accounts-button">MANAGE ACCOUNTS</button>
+            <button class="manage-accounts-button inline-block">MANAGE ACCOUNTS</button>
           </section>
           <section class="card-details">
-            <section class="card">
-              <img class="card-image" src="assets/images/checking.svg" alt="checkbook">
-              <h3 class="finance-co">Wells Fargo</h3>
-              <h3 class="card-type">Checking</h3>
+            <section class="card white-with-shadow">
+              <img class="card-image inline-block" src="assets/images/checking.svg" alt="checkbook">
+              <h3 class="finance-co inline-block">Wells Fargo</h3>
+              <h3 class="card-type inline-block">Checking</h3>
             </section>
-            <section class="card">
-              <img class="card-image" src="assets/images/savings.svg" alt="piggy bank">
-              <h3 class="finance-co">Wells Fargo</h3>
-              <h3 class="card-type">Savings</h3>
+            <section class="card white-with-shadow">
+              <img class="card-image inline-block" src="assets/images/savings.svg" alt="piggy bank">
+              <h3 class="finance-co inline-block">Wells Fargo</h3>
+              <h3 class="card-type inline-block">Savings</h3>
             </section>
-            <section class="card">
-              <img class="card-image"src="assets/images/credit-card.svg" alt="credit card">
-              <h3 class="finance-co">Amazon Credit</h3>
-              <h3 class="card-type">Credit Card</h3>
+            <section class="card white-with-shadow">
+              <img class="card-image inline-block"src="assets/images/credit-card.svg" alt="credit card">
+              <h3 class="finance-co inline-block">Amazon Credit</h3>
+              <h3 class="card-type inline-block">Credit Card</h3>
             </section>
-            <section class="card">
-              <img class="card-image" src="assets/images/credit-card.svg" alt="credit card">
-              <h3 class="finance-co">Southwest Credit</h3>
-              <h3 class="card-type">Credit Card</h3>
+            <section class="card white-with-shadow">
+              <img class="card-image inline-block" src="assets/images/credit-card.svg" alt="credit card">
+              <h3 class="finance-co inline-block">Southwest Credit</h3>
+              <h3 class="card-type inline-block">Credit Card</h3>
             </section>
           </section>
         </section>
   <!--end column one-->
         <section class="column-two">
-          <section class="transaction-header">
-            <h2 class="recent-transactions">Recent Transactions</h2>
-            <button class="new-transaction-button">NEW TRANSACTION</button>
+          <section class="transaction-header white-with-shadow">
+            <h2 class="recent-transactions inline-block">Recent Transactions</h2>
+            <button class="new-transaction-button inline-block">NEW TRANSACTION</button>
           </section>
-          <table>
+          <table class="white-with-shadow">
             <tr>
               <th>Date</th>
               <th class="payee">Payee</th>
@@ -135,17 +134,18 @@
           </table>
         </section>
     </main>
-      <main class="transactions-page main2 hide">
-    <section class="transactions-heading">
-      <h1 class="trans-head">Transactions</h1>
-      <section class="trans-buttons-section">
-        <button class="all-button">ALL</button>
-        <button class="inflow-button">INFLOW</button>
-        <button class="outflow-button">OUTFLOW</button>
+    <!-- Below is transactions page, starting as hidden...maybe need section instead of a second main? -->
+    <main class="transactions-page main2 hide">
+      <section class="transactions-heading inline-block">
+        <h1 class="trans-head inline-block">Transactions</h1>
+        <section class="trans-buttons-section inline-block">
+          <button class="all-button">ALL</button>
+          <button class="inflow-button white-with-shadow">INFLOW</button>
+          <button class="outflow-button white-with-shadow">OUTFLOW</button>
+        </section>
       </section>
-      </section>
-      <section class="trans-page-column-one">
-      <table class="trans-page-table">
+      <section class="trans-page-column-one inline-block">
+        <table class="trans-page-table white-with-shadow ">
             <tr>
               <th>Date</th>
               <th>Account</th>
@@ -252,52 +252,40 @@
               <td>$212.24</td>
             </tr>
           </table>
-    </section>
-    <section class="trans-page-column-two">
-      <form>
-        <section class="trans-inputs">
-<h2 class="new-trans-heading">New Transaction</h2>
-<!-- maybe can use one class for all of these??? -->
-      <section class="type-of-trans">
-        <h4>Type of Transaction:</h4>
-        <select class="type-input">
-          <option>Expense</option>
-          <option>Income</option>
-        </select>
       </section>
-
-      <section class="category">
-        <h4>Category:</h4>
-        <select class="cat-input">
-          <option value="" disabled selected>- Select One -</option>
-          <option>Grocery</option>
-          <option>Gas</option>
-          <option>Tacos</option>
-        </select>
+      <section class="trans-page-column-two white-with-shadow">
+        <form>
+          <section class="trans-inputs">
+            <h2 class="new-trans-heading">New Transaction</h2>
+              <h4>Type of Transaction:</h4>
+              <select class="type-input">
+                <option>Expense</option>
+                <option>Income</option>
+              </select>
+              <h4>Category:</h4>
+              <select class="cat-input">
+                <option value="" disabled selected>- Select One -</option>
+                <option>Grocery</option>
+                <option>Gas</option>
+                <option>Tacos</option>
+              </select>
+              <h4>Account from:</h4>
+              <select class="account-input">
+                <option value="" disabled selected>- Select One -</option>
+                <option>Credit Card</option>
+                <option>Checking</option>
+                <option>Savings</option>
+              </select>
+              <h4>Payee:</h4>
+              <input type="text" class="payee-input">
+              <h4>Outflow:</h4>
+              <input type="text" class="outflow-input">
+              <h4>Category:</h4>
+              <input type="text" class="cat-text-input">
+            <button class="log-expense-button">Log Expense</button>
+          </section>
+        </form>
       </section>
-
-      <section class="account-from">
-        <h4>Account from:</h4>
-        <select class="account-input">
-          <option value="" disabled selected>- Select One -</option>
-          <option>Credit Card</option>
-          <option>Checking</option>
-          <option>Savings</option>
-        </select>
-        </section>
-<!-- maybe need new class for each one???? -->
-      <section class="trans-text-boxes">
-        <h4>Payee:</h4>
-        <input type="text" class="payee-input">
-        <h4>Outflow:</h4>
-        <input type="text" class="outflow-input">
-        <h4>Category:</h4>
-        <input type="text" class="cat-text-input">
-      </section>
-      <button class="log-expense-button">Log Expense</button>
-    </section>
-      </form>
-    </section>
     </main>
     <script src="main.js"></script>
   </body>

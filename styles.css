@@ -5,18 +5,23 @@
   left: 0px;
   width: 8%;
   height: 100%;
-  background-color: #fff;
+}
+/* used for all boxes with white background and a box shadow */
+.white-with-shadow {
+  background-color: #FFF;
   box-shadow: 1px 1px rgba(0,0,0,0.05);
+}
+/* used for all inline elements */
+.inline-block {
+  display: inline-block;
 }
 
 ul {
   padding: 0px;
 }
+
 .nav-image {
-  /* float: left; */
-  /* float: middle; */
   width: 40%;
-  /* padding: 5% 20% 0% 0%; */
   border-left: 3px solid transparent;
   outline: none;
   padding: 0px 0px 0px 30px;
@@ -25,14 +30,6 @@ ul {
 .nav-image-border {
   border-left: 5px solid #1CA3BA;
 }
-
-/* .no-border {
-  border-left: 5px solid transparent;
-} */
-
-/* .nav-image:hover {
-  border-left: 3px solid #1CA3BA;
-} */
 
 .elephant {
   width: 80%;
@@ -59,21 +56,22 @@ position: relative;
 left: 140px;
 font-size: 30px;
 }
-
+/* banner that will disappear */
 .welcome {
   padding: 20px;
   margin: 0% 0% 3% 0%;
   background-image:linear-gradient(to right, #8ED1DC, #E3F4F6);
   border-radius: 5px;
 }
-
+/* button to make banner disapper */
 .close-button {
   position: absolute;
   top: 105px;
-  right: 655px;
+  right: 665px;
   width: 10px;
+  outline: none;
 }
-
+/* general rule used for navigation indicator as well as toggeling between dashboard and transactions page */
 .hide {
   display: none;
 }
@@ -101,13 +99,11 @@ font-size: 30px;
 }
 
 .accounts {
-  display: inline-block;
-  width: 100%;
+    width: 100%;
 }
 
 .manage-accounts-button {
   float: right;
-  display: inline-block;
   width: 33%;
   margin: 20px 0px 0px 0px;
 }
@@ -130,13 +126,11 @@ button {
 }
 
 .snapshot {
-  display: inline-block;
   width: 150px;
   height: 50px;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
   padding: 0px 10px 60px 20px;
+  margin: 0px 0px 25px 0px;
   border-radius: 5px;
-  background-color: #fff;
 }
 
 .center {
@@ -149,22 +143,18 @@ button {
 
 .card {
   margin: 10px 0px;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
   width: 100%;
   height: 65px;
-  background-color: #FFF;
 }
 
 .card-image {
   padding: 10px;
   width: 5%;
-  display: inline-block;
 }
 
 .finance-co {
   position: relative;
   bottom: 15px;
-  display: inline-block;
   padding: 0px 0px 15px 35px;
 }
 
@@ -172,33 +162,22 @@ button {
   float: right;
   position: relative;
   bottom: 5px;
-  display: inline-block;
   width: 33%;
 }
 
 .transaction-header {
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
-  padding: 0px 0px 0px 30px;
-  background-color: #FFF;
-}
-
-.recent-transactions {
-  display: inline-block;
+  padding: 0px 0px 0px 15px;
 }
 
 .new-transaction-button {
   float: right;
-  display: inline-block;
-  width: 40%;
+  width: 35%;
   margin: 20px 15px;
 }
 
 table {
-    background-color: #fff;
-    box-shadow: 1px 1px rgba(0,0,0,0.05);
     padding: 2%;
     width: 100%;
-    margin-bottom: 0px;
 }
 
 th {
@@ -207,29 +186,17 @@ th {
 }
 
 td {
-    padding: 5px 10px 5px 0px;
+    padding: 5px 7px 5px 0px;
     border-bottom: 1px solid #CCCCCC;
 }
 
 .payee {
-    padding: 0% 20% 0% 0%;
+    padding: 0% 15% 0% 0%;
 }
-
 /* start of transactions page */
-/* .transactions-page {
-
-} */
-
 .transactions-heading {
-  display: inline-block;
+  margin: 1% 0% 0% 10%;
   width: 40%;
-  margin: 0% 0% 0% 10%
-  ;
-}
-
-.trans-head {
-  display: inline-block;
-  /* margin: 0px 50px 0px 0px; */
 }
 
 .trans-buttons-section {
@@ -239,132 +206,100 @@ td {
 }
 
 .all-button {
-  color: white;
+  margin: 30px 0px 0px 0px;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
   border-color: #1CA3BA;
   border-radius: 20px;
   padding: 5px 50px;
-  cursor: pointer;
+  color: white;
   background-color: #1CA3BA;
+  cursor: pointer;
   font-size: 15px;
-  margin: 30px 0px 0px 0px;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
 }
 
 .inflow-button,
 .outflow-button {
-  background-color: #fff;
-  color: #1CA3BA;
   padding: 5px 25px;
+  color: #1CA3BA;
   font-size: 15px;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
 }
 
 .trans-page-column-one {
-  display: inline-block;
-  width: 45%;
   margin: 0% 0% 0% 10%;
-  /* maybe try float: left instead?????? */
+  width: 45%;
 }
 
 .trans-buttons-section {
   float: right;
-  /* width: 10%; */
-  display: inline-block;
 }
 
 .trans-page-table {
-  background-color: #fff;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
-  padding: ;
   width: 100%;
+  padding: 30px;
 }
 
 .trans-page-table-payee {
-    padding: 0px 15px 0px 0px;
+  padding: 0px 15px 0px 0px;
 }
-
-/* .trans-page-column-two {
-  float: right;
-  width: 45%
-} */
 
 .trans-page-column-two {
   float: right;
-  width: 35%;
   margin: 0px 50px 0px 50px;
-  background-color: #fff;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
-
-  /* padding: 10px; */
+  width: 35%;
 }
 
 .new-trans-heading {
-  margin:  0px 75px;
+  margin:  0px 75px 30px 100px;
 }
 
 form {
-  padding: 30px;
   margin: auto;
-  /* width: 80%; */
-  /* border: 1px solid red; */
-  /* box-shadow: 1px 1px rgba(0,0,0,0.05); */
+  padding: 30px;
 }
+
 .trans-inputs {
   margin: auto;
-  padding: 0px 40px;
-  /* border: 1px solid red; */
+  padding: 0px 40px 40px 20px;
 }
-/*
-.type-of-trans {
-
-} */
 
 h4 {
-  padding: 0px;
   margin: 0px;
-}
-
-.type-of-trans,
-.category,
-.account-from {
-  /* width: 80%; */
-  /* margin: 10px 0px; */
+  padding: 0px;
 }
 
 .type-input,
 .cat-input,
 .account-input {
+  margin: 0px 0px 10px 0px;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
   width: 100%;
   height: 25px;
   background-color: #F5F5F5;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
-  margin: 0px 0px 10px 0px;
   outline: none;
 }
 
 .payee-input,
 .outflow-input,
 .cat-text-input {
-  width: 100%;
-  height: 25px;
-  border-radius: 5px;
-  box-shadow: 1px 1px #F5F5F5;
   margin: 0px 0px 10px 0px;
+  border-radius: 5px;
   border-style: outset;
   border-width: 3px;
   border-color: rgba(0,0,0,0.05);
+  box-shadow: 1px 1px #F5F5F5;
+  width: 98%;
+  height: 25px;
   outline: none;
 }
 
 .log-expense-button {
-  color: white;
+  margin: 5px 0px 0px 0px;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
   border-color: #1CA3BA;
   border-radius: 20px;
   padding: 5px 25px;
-  cursor: pointer;
+  color: white;
   background-color: #1CA3BA;
   font-size: 16px;
-  margin: 5px 0px 0px 0px;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  cursor: pointer;
 }
-/*  */
